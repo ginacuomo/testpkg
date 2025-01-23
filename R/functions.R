@@ -16,12 +16,14 @@ square <- function(x) {
 
 #' Title
 #'
-#' @param x
+#' @param x a number to be squared by cow
 #'
-#' @return
+#' @return a long output with a cow saying the answer
 #' @export
 #'
 #' @examples
+#' square_say(10)
+#'
 square_say <- function(x) {
   ans <- square(x)
   str <- sprintf("The square of %s is %s", x, ans)

@@ -2,3 +2,4 @@
 
 export(product)
 export(square)
+export(square_say)
