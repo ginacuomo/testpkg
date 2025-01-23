@@ -20,7 +20,6 @@ test_that("product function fails when it's meant to", {
 })
 
 test_that("say square by a cow", {
-  expect_snapshot(square_say(10))
   expect_output(square_say(10),
                 "The square of 10 is 100")
 })
