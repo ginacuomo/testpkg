@@ -1,0 +1,31 @@
+---
+title: "testpkg"
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{testpkg}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
+---
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>"
+)
+```
+
+# Getting started with using the `testpkg` package
+
+```{r setup}
+library(testpkg)
+```
+
+Functionality of the package:
+* Squaring two numbers
+* Finding the product of two numbesr
+
+You can use the `square` function to multiply a number by itself
+
+```{r}
+square(10)
+```
